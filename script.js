@@ -5905,7 +5905,7 @@ var cdatagot = {
   },
   plotarea: {
     margin: 40,
-    backgroundImage: "https://i.imgur.com/tvrJh89.jpg",
+    backgroundImage: "https://i.imgur.com/6FchZ7Z.png",
     "background-fit": "xy",
     "background-repeat": false,
   },
