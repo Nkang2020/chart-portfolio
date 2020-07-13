@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ZingSoft Demo</title>
+ 
+  <script src="https://cdn.zinggrid.com/zinggrid.min.js" defer></script>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" type="text/css">
+
+</head>
+ 
+<body>
+  <div id="myCharty"></div>
+  <div id='myChartmario'></div>
+  <div id='myChartgot2'></div>
+  <div id="zc-got"></div>
+  <div id="myChart2"></div>
+
+  <div id='myChart'></div>
+  <div class="chart-cont">
+    <zing-grid caption="Click on a state" viewport-stop></zing-grid>
+    <div id='myChart3'></div>
+  </div>
+
+
+
+  <div id="zc"></div>
+
+  <div class="main-section">
+    <p class="title1">Jon "Bones" Jones</p>
+    <div class="container1">
+      <zing-grid height="293" class="zg1" caption="Biography" data='[
+    { "Attribute": "Status", "Statistic": "Active"},
+    { "Attribute": "Record", "Statistic": "23-1-0 (W-L-D)"},
+    { "Attribute": "Hometown", "Statistic": "Rochester"},
+    { "Attribute": "Age", "Statistic": "31"},
+    { "Attribute": "Height", "Statistic": "76"},
+    { "Attribute": "Weight", "Statistic": "205"},
+    { "Attribute": "Debut", "Statistic": "Aug. 09, 2008"},
+    { "Attribute": "Reach", "Statistic": "84.5"},
+    { "Attribute": "Leg Reach", "Statistic": "45"},
+    { "Attribute": "Wins by Knockout", "Statistic": "9"},
+    { "Attribute": "Wins by Submission", "Statistic": "6"},
+    { "Attribute": "Wins by Decision", "Statistic": "7"}
+  ]' viewport-stop>
+        <zg-column index="Attribute" header=" " type="text"></zg-column>
+        <zg-column index="Statistic" header=" " type="text"></zg-column>
+      </zing-grid>
+      <br>
+      <zing-grid height="293" class="zg1" caption="Event Results" data='[
+    { "portraitUrl":"https://i.imgur.com/76batps.png","Opponent": "Alexander Gustafsson", "Outcome": "Win" },
+    { "portraitUrl":"https://i.imgur.com/jThgUk6.png","Opponent": "Daniel Cormier", "Outcome": "Win"},
+    { "portraitUrl":"https://i.imgur.com/jvZ1FA7.png","Opponent": "Ovince Saint Preux", "Outcome": "Win"},
+    { "portraitUrl":"https://i.imgur.com/jThgUk6.png","Opponent": "Daniel Cormier", "Outcome": "Win"},
+    { "portraitUrl":"https://i.imgur.com/cy9QIPI.png","Opponent": "Glover Teixeira", "Outcome": "Win"},
+    { "portraitUrl":"https://i.imgur.com/76batps.png","Opponent": "Alexander Gustafsson", "Outcome": "Win" },
+    { "portraitUrl":"https://i.imgur.com/VvxwkRb.png","Opponent": "Chael Sonnen", "Outcome": "Win" },
+    { "portraitUrl":"https://i.imgur.com/KvLK6ul.png","Opponent": "Vitor Belfort", "Outcome": "Win" },
+    { "portraitUrl":"https://i.imgur.com/XXhuPS5.png","Opponent": "Rashad Evans", "Outcome": "Win" },
+    { "portraitUrl":"https://i.imgur.com/T5sBwyj.png","Opponent": "Lyoto Machida", "Outcome": "Win" }
+  ]' viewport-stop>
+        <zg-column index="portraitUrl" header=" " type="image" cell-class="image-portrait--column" menu-text="Portrait"></zg-column>
+        <zg-column index="Opponent" header="Opponent" type="text"></zg-column>
+        <zg-column index="Outcome" header="Outcome" type="text"></zg-column>
+      </zing-grid>
+ 
+    </div>
+    <img class="jj" src="https://i.imgur.com/LNqx7hI.png">
+    <div class="container2">
+      <div class="myChart">
+        <div id="myChartbones">
+        </div>
+        <div class="strikeCont">
+          <span class="strike-title">Striking Accuracy</span><br><br>
+          <span class="span1">Sig. Strikes Landed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1175</span><br>
+          <span class="span1">Sig. Strikes Attempted&nbsp;&nbsp;2103</span>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="myChart1">
+        <div id="myChart1bones"></div>
+        <div class="strikeCont">
+          <span class="strike-title">Grappling Accuracy</span><br><br>
+          <span class="span1">Takedowns Landed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36</span><br>
+          <span class="span1">Takedowns Attempted&nbsp;&nbsp;77</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="myChartwow"></div>
+  <div id="myChartig"></div>
+  <div id='myChartgot3'></div>
+  <div id='myChartapex'></div>
+  <div id='myChartdrunk'></div>
+  <div id='myChartworks'></div>
+  <div id='myChartgames'></div>
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+ 
+</html>

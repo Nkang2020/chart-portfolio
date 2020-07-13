@@ -1,0 +1,159 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+ 
+#myCharty {
+  min-height: 150px;
+}
+
+#myChart2, #zc {
+    margin-top: 50px;
+}
+#myCharty-license-text, #myChart2-license-text, #myChartgames-license-text, #myChartworks-license-text, #myChartapex-license-text, #myChartdrunk-license-text, #myChartgot3-license-text, #myChartig-license-text, #myChartwow-license-text, #myChartgot2-license-text, #myChartmario-license-text, #zc-got-license-text, #zc-license-text, #myChart-license-text, #myChart3-license-text, #myChart1bones-license-text, #myChartbones-license-text {
+    display: none ;
+}
+zg-watermark {
+    display: none;
+}
+#zc {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 700px;
+}
+#myChartapex {
+    margin-bottom: 50px;
+}
+#myChartworks {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.chart-cont, #myChart {
+    display:inline-block;
+  }
+  #myChart {
+    /*border: 1px solid black;*/
+    margin-top:220px;
+    margin-left:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .chart-cont {
+    margin-top:80px;
+    vertical-align:top;
+    /*border: 1px solid black;*/
+    width:500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .chart-cont2 {
+    /*border: 1px solid black;*/
+    width:310px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-top: -245px;
+      margin-left: 20px;
+  }
+  .chart-cont3 {
+    /*border: 1px solid black;*/
+    width:635px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-top: -245px;
+      margin-left: 335px;
+  }
+  zing-grid {
+    display:block;
+    /*border: 1px solid #003749;*/
+    height:350px;
+  }
+
+  .myChart {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+   
+  .myChart1 {
+    height: 400px;
+    width: 400px;
+    min-height: 150px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+   
+  .jj {
+    width: 200px;
+    height: 667px;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    vertical-align: top;
+    margin-top: 80px;
+  }
+   
+  .zc-ref {
+    display: none;
+  }
+   
+  .main-section {
+    width: 1095px;
+    display: block;
+    margin-top: 20px !important;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+   
+  .title1 {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 50px;
+  }
+   
+  .zg1 {
+    vertical-align: top;
+    width: 400px;
+    /*border: 1px solid #003749;*/
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+   
+  .zg2 {
+    vertical-align: top;
+    width: 400px;
+    /*border: 1px solid #003749;*/
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+   
+  .container1 {
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+  }
+   
+  .container2 {
+    width: 400px;
+    display: inline-block;
+  }
+   
+  .strikeCont {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+  }
+   
+  .strike-title {
+    font-size: 30px;
+  }
+   
+
+  .image-portrait--column img {
+    border-radius: 50%;
+    width: 65px;
+    filter: grayscale(50%);
+  }
+
